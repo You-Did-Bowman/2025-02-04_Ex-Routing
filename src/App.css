@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    background-color: #b8b8ff;
+
+    a {
+        color: #55499b;
+        text-decoration: none;
+    }
+
+    .active {
+        color: #aa6d44
+    }
+}
+
+
+body {
+    background: #f8f7ff;
+    text-align: center;
+}

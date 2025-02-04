@@ -23,7 +23,7 @@ function SingleUser() {
       <p>User ID: {user.id}</p>
       <p>First Name: {user.first_name}</p>
       <p>Last Name: {user.last_name}</p>
-      <img src={user.avatar} alt={`${user.first_name} ${user.last_name}`} />
+      <img className="avatar" src={user.avatar} alt={`${user.first_name} ${user.last_name}`} />
     </>
   );
 }

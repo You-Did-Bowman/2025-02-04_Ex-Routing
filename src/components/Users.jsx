@@ -1,6 +1,7 @@
 import { useContext } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { UserContext } from "../context/UserContext";
+import "./Users.css";
 
 function Users() {
 
@@ -10,10 +11,10 @@ function Users() {
     <>
       <Outlet />
 
-      <div>
+      <div className="userList">
         {users.map(user => (
           <li>
-            <Link to = {`/users/${user.id}`}>{user.first_name}</Link>
+            <NavLink to = {`/users/${user.id}`}>{user.first_name}</NavLink>
           </li>
         ))}
       </div>

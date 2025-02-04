@@ -1,0 +1,20 @@
+.userList {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1rem;
+    background-color: #ffeedd;
+    color: #9381ff;
+    height: 3.5rem;
+    
+    a {
+        text-decoration: none;
+    }
+
+    .active {
+        color: #9381ff
+    }
+}

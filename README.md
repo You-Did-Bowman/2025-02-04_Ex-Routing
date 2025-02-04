@@ -4,11 +4,11 @@ Erstelle eine React-Anwendung mit React Router, die drei Seiten enthält:
 - Über uns (/about)
 - Kontakt (/contact)
 
-Nutze <BrowserRouter>, <Routes> und <Route>, um das Routing zu implementieren.
+Nutze <code>BrowserRouter</code>, <code>Routes</code> und <code>Route</code>, um das Routing zu implementieren.
 
 ## Aufgabe 2: Navigation mit Links
 Erweitere die Anwendung aus Aufgabe 1:
-- Füge eine Navigation mit <Link> oder <NavLink> hinzu, damit der Benutzer zwischen den Seiten wechseln kann.
+- Füge eine Navigation mit <code>Link</code> oder <code>NavLink</code> hinzu, damit der Benutzer zwischen den Seiten wechseln kann.
 
 ## Aufgabe 3: Dynamische Routen
 Erstelle eine neue Seite für Benutzerprofile mit einer dynamischen URL:
